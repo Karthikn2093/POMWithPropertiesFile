@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="79593" started-at="2020-10-25T11:26:52 IST" finished-at="2020-10-25T11:28:11 IST">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="65802" started-at="2020-10-25T11:26:52 IST" finished-at="2020-10-25T11:27:57 IST">
+      <class name="testcases.LoginAndLogout">
+        <test-method status="PASS" signature="setFileName()[pri:0, instance:testcases.LoginAndLogout@4c762604]" name="setFileName" is-config="true" duration-ms="40" started-at="2020-10-25T11:26:52 IST" finished-at="2020-10-25T11:26:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFileName -->
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginAndLogout@4c762604]" name="preCondition" is-config="true" duration-ms="33286" started-at="2020-10-25T11:26:55 IST" finished-at="2020-10-25T11:27:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="loginLogout(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginAndLogout@4c762604]" name="loginLogout" duration-ms="5343" started-at="2020-10-25T11:27:29 IST" data-provider="fetchData" finished-at="2020-10-25T11:27:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.LoginAndLogout@4c762604]" name="closeBrowser" is-config="true" duration-ms="3677" started-at="2020-10-25T11:27:34 IST" finished-at="2020-10-25T11:27:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginAndLogout@4c762604]" name="preCondition" is-config="true" duration-ms="13923" started-at="2020-10-25T11:27:38 IST" finished-at="2020-10-25T11:27:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="loginLogout(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginAndLogout@4c762604]" name="loginLogout" duration-ms="3873" started-at="2020-10-25T11:27:52 IST" data-provider="fetchData" finished-at="2020-10-25T11:27:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.LoginAndLogout@4c762604]" name="closeBrowser" is-config="true" duration-ms="1901" started-at="2020-10-25T11:27:55 IST" finished-at="2020-10-25T11:27:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.LoginAndLogout -->
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="79593" started-at="2020-10-25T11:26:52 IST" finished-at="2020-10-25T11:28:11 IST">
+      <class name="testcases.LoginAndLogout">
+        <test-method status="PASS" signature="setFileName()[pri:0, instance:testcases.LoginAndLogout@78ac1102]" name="setFileName" is-config="true" duration-ms="51" started-at="2020-10-25T11:26:52 IST" finished-at="2020-10-25T11:26:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFileName -->
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginAndLogout@78ac1102]" name="preCondition" is-config="true" duration-ms="32536" started-at="2020-10-25T11:26:55 IST" finished-at="2020-10-25T11:27:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="loginLogout(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginAndLogout@78ac1102]" name="loginLogout" duration-ms="9078" started-at="2020-10-25T11:27:28 IST" data-provider="fetchData" finished-at="2020-10-25T11:27:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.LoginAndLogout@78ac1102]" name="closeBrowser" is-config="true" duration-ms="19374" started-at="2020-10-25T11:27:37 IST" finished-at="2020-10-25T11:27:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginAndLogout@78ac1102]" name="preCondition" is-config="true" duration-ms="11168" started-at="2020-10-25T11:27:56 IST" finished-at="2020-10-25T11:28:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="loginLogout(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginAndLogout@78ac1102]" name="loginLogout" duration-ms="3095" started-at="2020-10-25T11:28:07 IST" data-provider="fetchData" finished-at="2020-10-25T11:28:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.LoginAndLogout@78ac1102]" name="closeBrowser" is-config="true" duration-ms="569" started-at="2020-10-25T11:28:11 IST" finished-at="2020-10-25T11:28:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.LoginAndLogout -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
